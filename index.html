@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/css/resposive.css" />
 
     <link
       rel="stylesheet"
@@ -18,26 +19,61 @@
   </head>
   <body>
     <div class="container">
-      <div class="logo">
-        <img
-          src="https://www.mundoboaforma.com.br/wp-content/uploads/2021/08/escala-IMC-logo.jpg"
-          alt=""
-        />
+      <div class="situacao-imc">
+        <ul class="situacao-imc-lists">
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/30/30662.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/30/30662.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/30/30662.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/30/30662.png"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="https://cdn-icons-png.freepik.com/512/30/30662.png"
+              alt=""
+            />
+          </li>
+        </ul>
       </div>
-      <form>
+
+      <form class="light">
         <h2>Calculadora - IMC</h2>
-        <div class="inputs">
+        <i
+          id="bntDarnkMode"
+          class="fa-solid fa-sun"
+          style="cursor: pointer"
+        ></i>
+
+        <div class="inputs ligth">
           <label for="">Peso em Kg</label>
           <div class="input-field">
             <i class="fa-solid fa-weight-scale"></i>
-            <input type="number" class="input" />
+            <input type="number" class="input" placeholder="Exemplo: 80" />
             <span> Kg </span>
           </div>
 
           <label for="">Altura em metros</label>
           <div class="input-field">
             <i class="fa-solid fa-ruler"></i>
-            <input type="number" class="input" />
+            <input type="number" class="input" placeholder="Exemplo: 1.75" />
             <span> M </span>
           </div>
           <button>Calcular</button>

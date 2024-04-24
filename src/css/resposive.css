@@ -1,0 +1,11 @@
+@media (max-width: 414px) {
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 6px;
+  }
+  img {
+    width: 25rem;
+  }
+}
